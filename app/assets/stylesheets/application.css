@@ -17,7 +17,6 @@
  html, body {
     background-color: #FCEED1;
     background-repeat: no-repeat;
-    background-size: 100%;
  }
 
  .container{
@@ -40,3 +39,44 @@
    100%   { transform: translate(0, -25px); }    
 }
 
+
+.left{
+   position: absolute;
+   float: left;
+   height: 40%;
+   width: 30%;
+   top: 150px;
+   left: 150px;
+   background-color: #F1AE24;
+   border-radius: 50px;
+}
+
+.left h1{
+   position: relative;
+   top: 8%;
+   left: 5%;
+   font-size: 80px;
+   font-weight: 900;
+   font-family: 'Allura';
+}
+
+.center{
+   position: absolute;
+   height: 40%;
+   width: 30%;
+   top: 400px;
+   left: 400px;
+   background-color: rgb(239, 197, 143);
+   border-radius: 50px;
+   align-content: center;
+}
+
+.center p{
+   font-size: x-large;
+   position: relative;
+   top: 2%;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   padding: 50px;
+   padding-bottom: 10px;
+   padding-top: 20px;
+}
